@@ -1,0 +1,55 @@
+{
+  "website":{
+    "title": "杰克的博客"
+  },
+  "nav":{
+    "home": "首页",
+    "chains": "区块链",
+    "advantages": "优势",
+    "clients": "用户",
+    "features": "特性",
+    "blog": "博客",
+    "link": "联系方式",
+    "doc": "文档"
+  },
+  "chains":{
+    "chains": "多种区块链资产",
+    "des": "企业级开放平台是一个能帮助用户连接自己的网站以及为客户提供最流行的blockchain资产管理的一个平台 (如比特币，以太坊，莱特币，狗狗币等。)"
+  },
+  "advantages":{
+    "advantages": "优势"
+  },
+  "clients":{
+    "clients": "我们的用户",
+    "RenRenBit": "人人比特是一家快捷买卖比特币的强大交易平台。",
+    "BTC123": "BTC123是一家最流行的收录关于比特币的优秀网站，提供比特币实时行情／价格K线，信息以及相关数据查询的综合性比特币网站。",
+    "Yun Bi": "更多"
+  },
+  "features":{
+    "features": "特性",
+    "Cold Receiving API": "冷接收API",
+    "Cold Receiving API_des": "您可以轻松的通过安全方式获取成千上万个冷收款地址并监控相关地址的交易.",
+    "Cold Receiving API_date": "COLD",
+    "Cold Receiving API_job": "",
+    "Hot Sending API": "热发送API",
+    "Hot Sending API_des": "通过这种‘明冷实热’的钱包解决方案，您可以安全的进行实时提币或者支付客户的服务.",
+    "Hot Sending API_date": "HOT",
+    "Hot Sending API_job": "",
+    "Alert System": "报警系统",
+    "Alert System_des": "ChainCloud有着一套完善而又复杂的警报系统，能快速，有效地提醒管理员.",
+    "Alert System_date": "ALERT",
+    "Alert System_job": "",
+    "Financial Report": "财务报表",
+    "Financial Report_des": "通过完善的报告，您可以轻松验证系统的财务数据，并定期审计.",
+    "Financial Report_date": "REPORT",
+    "Financial Report_job": ""
+  },
+  "blog":{
+    "my_blog": "博客"
+  },
+  "link":{
+    "link": "联系方式",
+    "view": "次访问"
+  }
+
+}

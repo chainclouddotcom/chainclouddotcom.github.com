@@ -1,0 +1,55 @@
+{
+  "website":{
+    "title": "Jack's blog"
+  },
+  "nav":{
+    "home": "Home",
+    "chains": "Chain",
+    "advantages": "Advantage",
+    "clients": "Client",
+    "features": "Feature",
+    "blog": "Blog",
+    "link": "Link",
+    "doc": "Doc"
+  },
+  "chains":{
+    "chains": "Multiple Chains",
+    "des": "ChainCloud is a platform that can help you to connect your website or application with the most popular blockchain assets (Bitcoin, Ethereum, Litecoin, Dogecoin and so on)."
+  },
+  "advantages":{
+    "advantages": "Advantages"
+  },
+  "clients":{
+    "clients": "Our Clients",
+    "RenRenBit": "RenRenBit is a powerful bitcoin trade platform for buying and selling bitcoins instantly.",
+    "BTC123": "BTC123 is the most popular bitcoin navigation site with the real-time price/kline, news and other informations.",
+    "Yun Bi": "More to come ..."
+  },
+  "features":{
+    "features": "Features",
+    "Cold Receiving API": "Cold Receiving API",
+    "Cold Receiving API_des": "You can easily get thousands of COLD addresses in a secured way and monitor related transactions with ChainCloud's Cold Receiving API.",
+    "Cold Receiving API_date": "COLD",
+    "Cold Receiving API_job": "",
+    "Hot Sending API": "Hot Sending API",
+    "Hot Sending API_des": "With the ‘Actually Cold but looks like Hot’ Wallet solution, you can safely provide real-time withdrawal or payment services to your customers.",
+    "Hot Sending API_date": "HOT",
+    "Hot Sending API_job": "",
+    "Alert System": "Alert System",
+    "Alert System_des": "ChainCloud has a sophisticated alert system that can warn administrator quickly and effectively.",
+    "Alert System_date": "ALERT",
+    "Alert System_job": "",
+    "Financial Report": "Financial Report",
+    "Financial Report_des": "With the comprehensive report API, you can easily verify the financial data of your system, and audit periodically.",
+    "Financial Report_date": "REPORT",
+    "Financial Report_job": ""
+  },
+  "blog":{
+    "my_blog": "Blog"
+  },
+  "link":{
+    "link": "Link",
+    "view": "views"
+  }
+
+}
