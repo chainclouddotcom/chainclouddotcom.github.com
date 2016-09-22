@@ -86,13 +86,13 @@ V设备 会自动轮询你的‘待校验批次地址’的 API，查看是否�
 
 ## 2.1 第一步 安装并启动应用 (会提示 token 过期，可忽略)
 
-贴图
+![intro-02]({{ site.img_path }}/picture/intro-02.png)
 
 ## 2.2 第二步 配置应用
 
 ### 2.2.1 设置 token（你的服务器 token、ChainCloud 热发款账户的 token、ChainCloud 冷收款账户的 token）
 
-贴图
+![intro-03]({{ site.img_path }}/picture/intro-03.png)
 
 * ‘vtest 的 token’指的是提供发币、地址校验相关的四个 API 的服务器 token（可选，建议加 token，token 的方式跟调用 ChainCloud一样，在 http header 中加 token）
 
@@ -102,7 +102,7 @@ V设备 会自动轮询你的‘待校验批次地址’的 API，查看是否�
 
 ### 2.2.2 设置 channel（设置 ChainCloud手机号、你的管理员手机号）
 
-贴图
+![intro-04]({{ site.img_path }}/picture/intro-04.png)
 
 * ’ChainCloud 手机号’指 ChainCloud 会给你一个手机号，通过该手机号来保证目前数据的安全、地址校验等；V设备 当前只支持设置1个 ChainCloud 手机号，这里只能填‘ChainCloud 手机号1’这个输入框；
 
@@ -112,13 +112,13 @@ V设备 会自动轮询你的‘待校验批次地址’的 API，查看是否�
 
 ### 2.2.3 设置传输密码（待发交易 AES 加密密码，可选）
 
-贴图
+![intro-05]({{ site.img_path }}/picture/intro-05.png)
 
 发币相关 API 数据支持 AES 加密，如果需要启用 AES 加密，需要在这里设置密码。
 
 ### 2.2.4 vweb 域名（热发币、地址校验相关4个 API 的服务器地址）
 
-贴图
+![intro-06]({{ site.img_path }}/picture/intro-06.png)
 
 热发币、地址校验相关4个 API 的服务器地址（端口如果不是80，要带上端口号）
 
@@ -128,7 +128,7 @@ V设备 会自动轮询你的‘待校验批次地址’的 API，查看是否�
 
 ## 2.3 第三步 启动热发币服务
 
-贴图
+![intro-07]({{ site.img_path }}/picture/intro-07.png)
 
 * ‘最新vc通道ID’显示当前可用通道的ID
 
@@ -142,4 +142,6 @@ V设备 会自动轮询你的‘待校验批次地址’的 API，查看是否�
 
 * ‘测试一条数据’指运行一次 获取交易->chaincloud签名广播->反馈发币结果
 
-* 'vc ping'测试通道是否建立、是否通畅。可以用此检测通道是否通畅。建立完通道后，可以以此来测试是否建立成功。
+* 'vc ping'测试通道是否建立、是否通畅。可以用此检测通道是否通畅。建立完通道后，可以以此来测试是否建立成功
+
+* 下面的黑框为控制台，如果‘绑定服务’，它会实时显示当前运行状态
