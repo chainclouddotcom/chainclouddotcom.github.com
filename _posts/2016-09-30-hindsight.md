@@ -8,8 +8,6 @@ categories: [business]
 tags: [bitcoin]
 ---
 
-# 事后诸葛亮
-
 ![hindsight]({{ site.img_path }}/picture/hindsight.jpg)
 
 在我们这个圈子里，事后诸葛亮很多，国内国外都多。
