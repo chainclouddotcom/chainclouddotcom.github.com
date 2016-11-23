@@ -32,15 +32,7 @@ V设备 会轮询你的‘待发送的交易’的 API，查看是否有待发�
 
 ### 1.1.2 交易加密（提高安全性）
 
-如果交易要用 AES 加密，请按照我们的加密逻辑写，我们有 java、python、js 版本的实现；如果你使用的不是这几种语言，那你可能需要参考这几个版本的逻辑来自行实现。
-
-如果能跑通以下例子，则就能保证 V设备 的 AES 解密逻辑与你服务器加密逻辑一致。
-
-* 源字符串：{“outs”:”1NbbvxBYxGGCBhaM8mow1HFWA7dB5yukmY,10000;1MCs9SZwLg9JvLo6pzvVBWtmSV1dakwyM1,10000”,”dynamic”:0}
-
-* 加密后：B23A7DDF7AF953D4344ED8B190E9424C2A8D85CAA00B4358D58C5341E36A194097EA21F7D457E770E2C9512834D206DE9EB766ED154F7ECEABB61056E97D200F174EAD69CF62E5A7EDDF823AB8293EAEDFA47AA1FF66D1FDF2D4D2B6FFC0DF5E1D62DB84C7A3C6E432CDE0CDEABB9C79/166EAB021AFB6244191EEE75340F8109/D267F338A21B487D
-
-* 密码：20160721
+如果交易要用 AES 加密，请按照我们的加密逻辑写，我们有 java、python、js、php、c# 版本的实现；如果你使用的不是这几种语言，那你可能需要参考这几个版本的逻辑来自行实现。
 
 ## 1.2 收币
 
